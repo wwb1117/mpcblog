@@ -71,6 +71,7 @@ app.use(passport.session());
 
 // 静态文件
 app.use('/static', express.static(path.join(__dirname, 'public')));
+app.use('/', express.static(path.join(__dirname, 'public')));
 app.use('/static', express.static(path.join(__dirname, 'node_modules')));
 
 // 前台站点路由，无需登录
