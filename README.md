@@ -58,5 +58,5 @@ $ NODE_ENV=production pm2 start bin/www -i 0
 ```
 
 ## 贡献者们
-感谢给 iBlog2 项目贡献代码的朋友，感谢他们的支持，详情 [点击这里](https://github.com/eshengsky/iBlog2/graphs/contributors)。
+感谢给 iBlog2 技术支持，详情 [点击这里](https://github.com/eshengsky/iBlog2)。
 
