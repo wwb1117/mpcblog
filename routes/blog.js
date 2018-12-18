@@ -319,7 +319,9 @@ router.get('/:category/:article', (req, res, next) => {
                 resultContent = article.Content;
             }
             res.render('blog/article', {
-                post,
+				post,
+				keywords: `${article.Title}`,
+				description: `妈妈去哪儿产品部博客;${article.Summary}`,
                 settings,
                 resultContent,
                 title: `${settings.SiteName} - ${article.Title}`
